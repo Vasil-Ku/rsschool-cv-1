@@ -1,2 +1,2 @@
 # rsschool-cv
-task for rsschool
+https://mauta.github.io/rsschool-cv/
