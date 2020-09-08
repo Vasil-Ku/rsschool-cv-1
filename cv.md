@@ -21,7 +21,7 @@ About for half a year filled sites on Bitrix.
 
 ### Education:
 
-* Yaroslav-the-Wise Novgorod State University, mathematics programming, 1999-2005
+* Yaroslav-the-Wise Novgorod State University, Applied Mathematics and Information Science, 1999-2005
 * https://htmlacademy.ru/ 
 
 ### Languages:
