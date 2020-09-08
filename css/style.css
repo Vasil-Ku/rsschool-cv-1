@@ -1,0 +1,105 @@
+body {
+  width: 1000px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border: 0;  
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;  
+  list-style: none;
+}
+
+.contacts__link:hover { opacity: 0.5; }
+
+.contacts__link-tg {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/iconmonstr-telegram-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts__link-gh {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/iconmonstr-github-1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts__link-email {
+  display: block;
+  width: 40px;
+  height: 40px;  
+  background-image: url(../img/iconmonstr-email-12.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-me__avatar {
+  float: left;
+  width: 140px;  
+  padding-right: 50px;
+}
+
+.about-me__text {
+  width: 1000px;
+  margin-bottom: 100px;
+}
+
+.skills { column-count: 2; }
+
+.sample__link {
+  margin-right: 50px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0px 6px 15px rgba(0, 1, 1, 0.25);
+  
+}
+
+.sample__link:hover { box-shadow: 0px 4px 25px rgba(0, 1, 1, 0.4); }
+
+.sample__name {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+.sample {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sample__img { display: block; }
